@@ -15,11 +15,11 @@ class AtrRsiStrategy(CtaTemplate):
 
     author = "用Python的交易员"
 
-    atr_length = 60
+    atr_length = 25
     atr_ma_length = 10
     rsi_length = 5
     rsi_entry = 16
-    trailing_percent = 0.8
+    trailing_percent = 0.8    
     fixed_size = 1
 
     atr_value = 0
